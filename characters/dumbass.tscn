@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bysvhs2aqqkm0"]
+
+[ext_resource type="PackedScene" uid="uid://bigfigbnn4xt0" path="res://characters/Human.tscn" id="1_ownxv"]
+[ext_resource type="Script" path="res://scripts/SillyBrain.cs" id="2_r6hal"]
+
+[node name="dumbass" instance=ExtResource("1_ownxv")]
+
+[node name="Brain" parent="." index="2"]
+script = ExtResource("2_r6hal")

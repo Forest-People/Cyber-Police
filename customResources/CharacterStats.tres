@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://gn47woi0w6sv"]
+
+[ext_resource type="Script" path="res://scripts/CharacterStats.cs" id="1_kpkmg"]
+
+[resource]
+script = ExtResource("1_kpkmg")
+walkSpeed = 0.0
+runSpeed = 0.0
+jumpVelocity = 0.0
