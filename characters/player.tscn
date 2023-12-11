@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://bpggb22uxqo4u"]
+
+[ext_resource type="PackedScene" uid="uid://bigfigbnn4xt0" path="res://characters/Human.tscn" id="1_huspq"]
+[ext_resource type="Script" path="res://scripts/PlayerBrain.cs" id="2_2k0bu"]
+[ext_resource type="Script" path="res://scripts/PlayerCamera.cs" id="3_0bqvr"]
+
+[node name="Player" instance=ExtResource("1_huspq")]
+
+[node name="Brain" parent="." index="2"]
+script = ExtResource("2_2k0bu")
+
+[node name="Camera2D" type="Camera2D" parent="." index="3"]
+position_smoothing_enabled = true
+script = ExtResource("3_0bqvr")
+_zoomSpeed = 1.1
